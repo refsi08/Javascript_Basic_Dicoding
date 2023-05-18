@@ -4,7 +4,7 @@
     variabel".
 */
 
-// 1. Membuat Objeck
+// 1. Membuat Objek
 const car = {
     brand : "Honda",
     model : "Sedan",
