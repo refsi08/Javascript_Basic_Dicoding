@@ -8,7 +8,8 @@ class Developer {
   }
 }
 
-function canBuildUI(developer) { // membuat fungsi method buildUI()
+function canBuildUI(developer) {
+  // membuat fungsi method buildUI()
   return {
     buildUI: () => {
       console.log(`${developer.name} is building UI...`);
