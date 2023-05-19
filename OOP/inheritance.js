@@ -31,13 +31,13 @@ class EmailService extends MailService {
   }
 }
 
-const whatsapp = new WhatsAppService('Refsi');
-const email = new EmailService('dimas@dicoding.com');
- 
-whatsapp.sendMessage('Hello', '+6289876543210');
-whatsapp.sendBroadcastMessage('Hello', ['+6289876543210', '+6282234567890']);
+const whatsapp = new WhatsAppService("Refsi");
+const email = new EmailService("dimas@dicoding.com");
+
+whatsapp.sendMessage("Hello", "+6289876543210");
+whatsapp.sendBroadcastMessage("Hello", ["+6289876543210", "+6282234567890"]);
 // whatsapp.sendDelayedMessage(); // Error
- 
-email.sendMessage('Hello', 'john@doe.com');
-email.sendDelayedMessage('Hello', 'john@doe.com', 3000);
+
+email.sendMessage("Hello", "john@doe.com");
+email.sendDelayedMessage("Hello", "john@doe.com", 3000);
 // email.sendBroadcastMessage(); // Error
